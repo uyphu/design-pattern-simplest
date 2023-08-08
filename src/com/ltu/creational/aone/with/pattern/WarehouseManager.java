@@ -4,7 +4,17 @@
  * accessible from anywhere in the application.
  * Ex: Database Connection, Log, Cache, Configuration
  */
+/**
+ * Class Diagram
++----------------------------+
+| Singleton                  |
++----------------------------+
+| - instance: Singleton      |
++----------------------------+
+| + getInstance(): Singleton |
++----------------------------+
 
+ */
 package com.ltu.creational.aone.with.pattern;
 
 import java.util.HashMap;
